@@ -1,0 +1,52 @@
+body {
+	font-family: pt sans, sans-serif !important;
+}
+body a{
+	text-decoration:none;
+}
+
+.nav-item a {
+	font-size: 14px;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.navbar-2 {
+	border-bottom: 2px solid #045f50;
+}
+
+.logo a span {
+	color: #045f50;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+#search-bar {
+	border-color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	color: #555;
+	padding: 6px 12px;
+	font-size: 14px;
+}
+
+.drop-d {
+	color: #045f50;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+@media (max-width: 576px) {
+}
+
+@media (min-width: 759px) and (max-width: 992px) {
+	#search-bar,
+	#search-bar:active,
+	#search-bar:focus {
+		width: 200px;
+	}
+}
