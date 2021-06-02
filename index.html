@@ -35,27 +35,27 @@
 		</div>
 
 		<!-- NAVBAR 2 -->
-		<div class="container-fluid navbar-2">
+		<div class="container-fluid navbar-2 sticky-top" style="background-color: #fff">
 			<div class="row d-flex p-2">
 				<!-- LEFT SIDE -->
 				<div class="col-6">
 					<div class="row d-flex justify-content-start">
 						<!-- BRAND -->
-						<div class="col-md-2 col-4 logo p-0">
+						<div class="col-md-5 col-4 logo">
 							<a class="navbar-brand m-0" href="https://lindungihutan.com" style="height: 35px">
 								<img src="./assets/img/logo_lindungihutan.png" alt="lindungihutan" width="40px" />
 								<span>LindungiHutan</span>
 							</a>
 						</div>
 						<!-- INPUT -->
-						<div class="col-4 mt-2 pt-2" style="width: 200px">
+						<div class="col-4 mt-2 pt-2 d-md-block d-none" style="width: 200px">
 							<input type="text" class="form-control p-0" placeholder="Cari kampanye alam" id="search-bar" />
 						</div>
 					</div>
 				</div>
 				<!-- RIGHT SIDE -->
-				<div class="col">
-					<ul class="nav navbar-nav navbar-right d-flex justify-content-between" style="width: 100%">
+				<div class="col d-md-block d-none">
+					<ul class="nav d-flex justify-content-between align-items-center" style="width: 100%">
 						<!-- PROJEK -->
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle drop-d" data-bs-toggle="dropdown" role="button" aria-expanded="false">Projek<span class="caret"></span></a>
@@ -119,6 +119,459 @@
 							></a>
 						</li>
 					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- CTA  -->
+		<div class="container" style="padding-top: 7%">
+			<div class="row d-flex justify-content-between align-items-center">
+				<!-- IMAGE -->
+				<div class="col-md-6">
+					<img style="margin: 20px 0px; max-width: 700px; max-height: 300px" src="https://lindungihutan.com/public/img/homegif.webp" />
+				</div>
+				<!-- MAIN TEXT  -->
+				<div class="col-md-5 text-center">
+					<h2 class="text-center" style="font-weight: bold; color: #000">Hal sederhana, jadi lebih bermakna bersama LindungiHutan.</h2>
+					<h3 class="text-center" style="font-weight: bold; line-height: 1.5; color: #000; font-size: 18px">
+						Buat aksi penanaman dan lingkungan dengan mudah, aman dan transparan. <br />Mulai Tanam #PohonPertama kamu.
+					</h3>
+					<a
+						href="https://lindungihutan.com/daftar_kampanye"
+						class="btn"
+						style="width: 300px; border-radius: 50px; background-color: #00c744; color: #fff; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.19)"
+					>
+						<b>Buat Kampanye Alam</b>
+					</a>
+					<div style="margin-top: 10px">
+						<a href="https://lindungihutan.com/carakerja">
+							<b style="color: #000; font-weight: bold; text-decoration: underline">Pelajari Bagaimana Kami Bekerja</b>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- CAROUSEL -->
+		<div class="container" style="padding: 40px 0 60px">
+			<div class="row justify-content-around">
+				<!-- Teks -->
+				<div class="col-md-4 text-center text-md-start">
+					<div style="font-style: normal; font-weight: bold; font-size: 30px">LindungiHutan</div>
+					<div style="font-style: normal; font-weight: bold; font-size: 15px">Platform Crowdplanting penggalangan dana online untuk konservasi hutan dan lingkungan.</div>
+				</div>
+				<!-- carousel -->
+				<div class="col-6">
+					<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<a href="https://lindungihutan.com/collaboratree">
+									<img
+										src="https://lindungihutan.com/public/img/Banner_Collaboratree_with_LindungiHutan_Home.webp"
+										class="d-block"
+										style="width: 400px; height: auto; border-radius: 10px"
+									/>
+								</a>
+							</div>
+							<div class="carousel-item">
+								<a href="https://lindungihutan.com/sedekahpohon">
+									<img src="https://lindungihutan.com/public/img/Banner-sedekahpohon-min.webp" class="d-block" style="width: 400px; height: auto; border-radius: 10px" />
+								</a>
+							</div>
+							<div class="carousel-item">
+								<a href="https://lindungihutan.com/kadobumi">
+									<img src="https://lindungihutan.com/public/img/banner-kadobumi.webp" class="d-block" style="width: 400px; height: auto; border-radius: 10px" />
+								</a>
+							</div>
+							<div class="carousel-item">
+								<a href="https://lindungihutan.com/alamraya">
+									<img src="https://lindungihutan.com/public/img/home-alamraya.webp" class="d-block" style="width: 400px; height: auto; border-radius: 10px" />
+								</a>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+							<span class="bi bi-arrow-left-circle-fill" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+							<span class="bi bi-arrow-right-circle-fill" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- AKSI NYATA -->
+		<div class="container-fluid" style="padding: 40px 0 60px">
+			<h1 class="title text-center" style="font-weight: 700">Apa aksi nyatamu hari ini?</h1>
+			<!-- CARDS -->
+			<div class="row pt-5 justify-content-center flex-wrap">
+				<div class="col-md-3 col d-flex justify-content-center">
+					<div class="card pb-5" style="width: 21rem">
+						<img src="https://lindungihutan.com/public/campaigns/large/11618469558nvhd8fjbzmywrrga14dv9fw7fjc9mm1e7gxobcrs.png" class="card-img-top" />
+						<div class="card-body">
+							<h5 class="card-title" style="font-size: 1.3em; font-weight: 700; margin: 10px 0 20px">Our Smallest Thing Matters</h5>
+							<a href="https://lindungihutan.com/campaign/1047/our-smallest-thing-matters" class="card-text" style="color: black">Campaigner : </a>
+							<a style="color: #045f50" href="https://lindungihutan.com/u/ohmyskin"> CV. Ohmyskin Natura Indonesia</a>
+
+							<div class="progress" style="height: 5px; margin: 10px 0">
+								<div class="progress-bar" role="progressbar" style="width: 100%; background-color: #00c744 !important" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="row justify-content-center">
+								<div class="col-7 text-between"><strong style="font-size: 14px">469</strong> <span style="font-size: 14px">Pohon terkumpul</span></div>
+								<div class="col-4 text-center"><strong style="font-size: 14px">1</strong> <span style="font-size: 14px">Hari lagi</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col d-flex justify-content-center">
+					<div class="card pb-5" style="width: 21rem">
+						<img src="https://lindungihutan.com/public/campaigns/large/337141621177570hy0zjhzdzwtsummjyykl9ou6vbi7hl02a3emkcfy.png" class="card-img-top" />
+						<div class="card-body">
+							<h5 class="card-title" style="font-size: 1.3em; font-weight: 700; margin: 10px 0 20px">100 pohon untuk hari ulang tahun Kim So Hyun</h5>
+							<a href="https://lindungihutan.com/campaign/1047/our-smallest-thing-matters" class="card-text" style="color: black">Campaigner : </a>
+							<a style="color: #045f50" href="https://lindungihutan.com/u/asyakrmh865"> Asya Krmh</a>
+
+							<div class="progress" style="height: 5px; margin: 10px 0">
+								<div class="progress-bar" role="progressbar" style="width: 100%; background-color: #00c744 !important" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="row justify-content-center">
+								<div class="col-7 text-between"><strong style="font-size: 14px">108</strong> <span style="font-size: 14px">Pohon terkumpul</span></div>
+								<div class="col-4 text-center"><strong style="font-size: 14px">1</strong> <span style="font-size: 14px">Hari lagi</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col d-flex justify-content-center">
+					<div class="card pb-5" style="width: 21rem">
+						<img src="https://lindungihutan.com/public/campaigns/large/11620114934sr1tvlfmoe0qkomms5cjjqdd9x3rkmkob6xewqzb.png" class="card-img-top" />
+						<div class="card-body">
+							<h5 class="card-title" style="font-size: 1.3em; font-weight: 700; margin: 10px 0 20px">150 Pohon Chae Dahyun Tzuyu Twice</h5>
+							<a href="https://lindungihutan.com/campaign/1047/our-smallest-thing-matters" class="card-text" style="color: black">Campaigner : </a>
+							<a style="color: #045f50" href="https://lindungihutan.com/u/Sanatwice201"> Sanatwice201</a>
+
+							<div class="progress" style="height: 5px; margin: 10px 0">
+								<div class="progress-bar" role="progressbar" style="width: 45%; background-color: #00c744 !important" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="row justify-content-center">
+								<div class="col-7 text-between"><strong style="font-size: 14px">66</strong> <span style="font-size: 14px">Pohon terkumpul</span></div>
+								<div class="col-4 text-center"><strong style="font-size: 14px">3</strong> <span style="font-size: 14px">Hari lagi</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-3 text-center">
+					<a href="https://lindungihutan.com/kampanyealam" class="btn" style="margin-top: 40px; background-color: #045f50; color: #fff; font-weight: 700">Lihat Semua</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- MITRA ALAM -->
+		<div class="container" style="padding: 40px 0 60px">
+			<h1 class="title text-center" style="font-weight: 700; font-size: 36px">Mitra Alam</h1>
+			<div class="row">
+				<div class="col">
+					<ul id="partners" class="d-flex justify-content-center flex-wrap">
+						<li>
+							<img
+								alt="Universal Volunteer"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/158-SHv6Cu0o5tV04BNFjp74hdGarb4Iri3P.png"
+								title="Universal Volunteer"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="Peppernik Batik"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/192-PTLHguRnp59uHu9W4RriXVRAcWBuhBJM.png"
+								title="Peppernik Batik"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="Elita Kerudung"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/-DsZLJ96OAmqlDmUdmMIgVN9dZ6bs3xnD.png"
+								title="Elita Kerudung"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="Gulaliku"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/-DRZRNQCBnxNZfhIpbg1bJDPY37jl4mnu.png"
+								title="Gulaliku"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="Bumi Buddies"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/281-tZMoYTSgWo5eo61OGCBnlroZsKISKXx7.png"
+								title="Bumi Buddies"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="PT PLN (Persero) PUSHARLIS UP2W V Semarang"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/200-iltSAcToYBItG98T9CzPCnRQGaDK8A1G.png"
+								title="PT PLN (Persero) PUSHARLIS UP2W V Semarang"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="Jadeclover"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/-hroySLIFLHPFe0TLukMtHWuwPQHBiQch.png"
+								title="Jadeclover"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="Sustaination"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/-6WoRmlRtJECEZyX7aMGy49JUECkq5HDv.png"
+								title="Sustaination"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="Klen &amp; kind"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/203-9ocftPAnLZ7eUdHP7UQVdop35ZQm8R4s.png"
+								title="Klen &amp; kind"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="AKSET Law"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/-LnQhOCOVtMfWyxdaELnG83UM679Owx18.png"
+								title="AKSET Law"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="Bank DBS Indonesia"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/-HOw0a4M5luyBzAnk1ENZGJ98Duj7q69Y.png"
+								title="Bank DBS Indonesia"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="Wise Steps Travel"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/208-C3xcfD7dX3Tj0gpEYnMFhRItDtpmzJFj.jpg"
+								title="Wise Steps Travel"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="The Body Shop"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/209-MXxA6Z7bVA9VVgOtFBA4f4UOTKPMDdec.jpg"
+								title="The Body Shop"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="Mendekor Indonesia"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/-oV6O0mv23bW8FJoa6lvIzhChlmxP9Kmd.jpg"
+								title="Mendekor Indonesia"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+						<li>
+							<img
+								alt="PT Ingredion Indonesia"
+								style="width: 90px"
+								src="https://lindungihutan.com/public/img-partner/-VcuwxRip345VUyL0CzAjEL3lFkDeC9G1.png"
+								title="PT Ingredion Indonesia"
+								class="img img-responsive lazy logo-hover"
+							/>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-3 text-center">
+					<a href="https://lindungihutan.com/kampanyealam" class="btn" style="margin-top: 40px; background-color: #045f50; color: #fff; font-weight: 700">Lihat Partner</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<div class="container" style="padding: 40px 0 60px">
+			<div class="row">
+				<div class="col-md-4 col-sm-6 col-xs-12 hidden-xs">
+					<div>
+						<a class="" href="https://lindungihutan.com" style="height: 25px">
+							<img src="https://lindungihutan.com/public/img-redesign/logo_lindungihutan.png" style="width: 40px" />
+							<span class="align-self-baseline" style="bottom: 10px; color: #045f50; font-weight: bold; font-size: 18px"> LindungiHutan </span>
+						</a>
+					</div>
+					<div style="font-weight: bold; font-size: 15px">Website Penggalangan Dana Online untuk Konservasi Hutan dan Lingkungan.</div>
+					<div>Yayasan Lindungi Hutan resmi berbadan hukum dan memiliki Izin Pengumpulan Sumbangan pada SK Kemensos No. 409/HUK-PS/2021.</div>
+					<p></p>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-5">
+					<h4 style="margin-top: 0; font-size: 18px"><b>Tentang Kami</b></h4>
+					<ul class="link-footer">
+						<li><a href="https://lindungihutan.com/carakerja">Cara Kerja </a></li>
+						<li><a href="https://lindungihutan.com/profil">Profil </a></li>
+						<li><a href="https://lindungihutan.com/team">Team </a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-7">
+					<ul class="link-footer" style="margin-top: 30px">
+						<li><a href="https://lindungihutan.com/kebijakan">Kebijakan dan Privasi </a></li>
+						<li><a href="https://lindungihutan.com/faq">FAQ </a></li>
+						<li><a href="https://lindungihutan.com/kontakkami">Kontak</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-4">
+					<ul class="link-footer" style="margin-top: 30px">
+						<li><a href="https://lindungihutan.com/syaratketentuan">Syarat Ketentuan</a></li>
+						<li><a href="https://lindungihutan.com/partner">Mitra Alam</a></li>
+						<li><a href="https://lindungihutancsr.typeform.com/to/mBehaO" target="_blank" rel="noopener"> Menjadi Mitra</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-4">
+					<ul class="link-footer" style="margin-top: 30px">
+						<li><a href="https://lindungihutan.com/komunitas">Relawan </a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-12">
+					<ul id="socmed" class="d-flex justify-content-between">
+						<li>
+							<a href="https://www.facebook.com/lindungihutandotcom/" target="_blank" rel="noopener">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									version="1.1"
+									id="Capa_1"
+									x="0px"
+									y="0px"
+									viewBox="0 0 486.392 486.392"
+									style="enable-background: new 0 0 486.392 486.392"
+									xml:space="preserve"
+									width="28px"
+									height="28px"
+								>
+									<path
+										class="fb-lh"
+										d="M395.193,0H91.198C40.826,0,0,40.826,0,91.198v303.995c0,50.372,40.826,91.198,91.198,91.198     h303.995c50.372,0,91.198-40.827,91.198-91.198V91.198C486.392,40.826,445.565,0,395.193,0z M306.062,243.165l-39.854,0.03     l-0.03,145.917h-54.689V243.196H175.01v-50.281l36.479-0.03l-0.061-29.609c0-41.039,11.126-65.997,59.431-65.997h40.249v50.311     h-25.171c-18.817,0-19.729,7.022-19.729,20.124l-0.061,25.171h45.234L306.062,243.165z"
+										fill="#cccccc"
+									></path>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/LindungiHutan" target="_blank" rel="noopener">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									version="1.1"
+									id="Capa_1"
+									x="0px"
+									y="0px"
+									viewBox="0 0 486.392 486.392"
+									style="enable-background: new 0 0 486.392 486.392"
+									xml:space="preserve"
+									width="28px"
+									height="28px"
+								>
+									<path
+										class="tw-lh"
+										d="M395.193,0H91.198C40.826,0,0,40.826,0,91.198v303.995c0,50.372,40.826,91.198,91.198,91.198     h303.995c50.372,0,91.198-40.827,91.198-91.198V91.198C486.392,40.826,445.565,0,395.193,0z M364.186,188.598l0.182,7.752     c0,79.16-60.221,170.359-170.359,170.359c-33.804,0-65.268-9.91-91.776-26.904c4.682,0.547,9.454,0.851,14.288,0.851     c28.059,0,53.868-9.576,74.357-25.627c-26.204-0.486-48.305-17.814-55.935-41.586c3.678,0.669,7.387,1.034,11.278,1.034     c5.472,0,10.761-0.699,15.777-2.067c-27.39-5.533-48.031-29.7-48.031-58.701v-0.76c8.086,4.499,17.297,7.174,27.116,7.509     c-16.051-10.731-26.63-29.062-26.63-49.825c0-10.974,2.949-21.249,8.086-30.095c29.518,36.236,73.658,60.069,123.422,62.562     c-1.034-4.378-1.55-8.968-1.55-13.649c0-33.044,26.812-59.857,59.887-59.857c17.206,0,32.771,7.265,43.714,18.908     c13.619-2.706,26.448-7.691,38.03-14.531c-4.469,13.984-13.953,25.718-26.326,33.135c12.069-1.429,23.651-4.682,34.382-9.424     C386.073,169.659,375.889,180.208,364.186,188.598z"
+										fill="#cccccc"
+									></path>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/channel/UC5QbLWq-CDaVprd8RGONnpw" target="_blank" rel="noopener">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									version="1.1"
+									id="Layer_1"
+									x="0px"
+									y="0px"
+									viewBox="0 0 504 504"
+									style="enable-background: new 0 0 504 504"
+									xml:space="preserve"
+									width="28px"
+									height="28px"
+								>
+									<polygon class="yt-lh" points="219.6,202.4 219.6,294.4 304.4,248.8   " fill="#cccccc"></polygon>
+									<path
+										class="yt-lh"
+										d="M377.6,0H126C56.8,0,0,56.8,0,126.4V378c0,69.2,56.8,126,126,126h251.6c69.6,0,126.4-56.8,126.4-126.4V126.4    C504,56.8,447.2,0,377.6,0z M408,264.4c0,26.4-2.4,53.2-2.4,53.2s-2.8,22.4-12,32.4c-12,13.2-25.2,13.2-31.2,14    c-44,3.2-110,3.6-110,3.6s-82-1.2-107.2-3.6c-6.8-1.2-22.8-0.8-34.8-14c-9.6-10-12-32.4-12-32.4S96,290.8,96,264.4v-24.8    c0-26.4,2.4-53.2,2.4-53.2s2.8-22.4,12-32.4c12-13.2,25.2-13.6,31.2-14.4C186,136.4,252,136,252,136s66,0.4,110,3.6    c6,0.8,19.6,1.2,31.6,14c9.6,10,12,32.8,12,32.8s2.4,26.8,2.4,53.2V264.4z"
+										fill="#cccccc"
+									></path>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/lindungihutan/" target="_blank" rel="noopener">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									version="1.1"
+									id="Layer_1"
+									x="0px"
+									y="0px"
+									viewBox="0 0 504.4 504.4"
+									style="enable-background: new 0 0 504.4 504.4"
+									xml:space="preserve"
+									width="28px"
+									height="28px"
+								>
+									<path
+										class="ig-lh"
+										d="M296.8,219.8c-10-14-26.4-23.2-44.8-23.2c-18.4,0-34.8,9.2-44.8,23.2c-6.4,9.2-10.4,20.4-10.4,32.4    c0,30.4,24.8,55.2,55.2,55.2c30.4,0,55.2-24.8,55.2-55.2C307.2,240.2,303.2,229,296.8,219.8z"
+										fill="#cccccc"
+									></path>
+									<path
+										class="ig-lh"
+										d="M331.6,220.2c4,8,6.4,20.8,6.4,32c0,47.2-38.4,86-86,86c-47.6,0-86-38.4-86-86c0-11.6,2.4-24,6.4-32H124v128.4    c0,16.8,14.8,31.6,31.6,31.6h192.8c16.8,0,31.6-14.8,31.6-31.6V220.2H331.6z"
+										fill="#cccccc"
+									></path>
+									<polygon class="ig-lh" points="365.6,131.4 319.2,131.4 319.2,184.6 372,184.6 372,138.2 372,131   " fill="#cccccc"></polygon>
+									<path
+										class="ig-lh"
+										d="M377.6,0.2H126.4C56.8,0.2,0,57,0,126.6v251.6c0,69.2,56.8,126,126.4,126H378c69.6,0,126.4-56.8,126.4-126.4V126.6    C504,57,447.2,0.2,377.6,0.2z M408,219.8L408,219.8l0,128.8c0,33.6-26,59.6-59.6,59.6H155.6c-33.6,0-59.6-26-59.6-59.6V219.8v-64    c0-33.6,26-59.6,59.6-59.6h192.8c33.6,0,59.6,26,59.6,59.6V219.8z"
+										fill="#cccccc"
+									></path>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-12" style="margin-top: 20px">
+					LindungiHutan © 2018 - made with
+					<img class="img img-responsive lazy" alt="love-lindungihutan" src="https://lindungihutan.com/public/img-redesign/like.svg" style="display: inline" />
 				</div>
 			</div>
 		</div>

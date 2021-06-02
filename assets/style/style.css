@@ -1,8 +1,12 @@
 body {
 	font-family: pt sans, sans-serif !important;
 }
-body a{
-	text-decoration:none;
+body a {
+	text-decoration: none;
+}
+
+body ul li {
+	list-style: none;
 }
 
 .nav-item a {
@@ -38,6 +42,42 @@ body a{
 	color: #045f50;
 	font-weight: 700;
 	font-size: 1.2em;
+}
+
+.carousel-item {
+	margin-right: 2%;
+}
+
+#carouselExampleControls .bi {
+	color: #00c744;
+	font-size: 200%;
+}
+
+#carouselExampleControls .carousel-control-prev,
+#carouselExampleControls .carousel-control-next {
+	background-color: #00c74600;
+	border: none;
+}
+
+#partners li {
+	-webkit-filter: grayscale(1);
+	-webkit-transition: all 0.1s ease-in-out;
+	margin: 1%;
+}
+
+#partners li:hover {
+	filter: none;
+}
+
+.link-footer,
+#socmed {
+	padding-left: 0;
+}
+
+.link-footer li a {
+	font-weight: 700;
+	font-size: 14px;
+	color: #045f50;
 }
 
 @media (max-width: 576px) {
